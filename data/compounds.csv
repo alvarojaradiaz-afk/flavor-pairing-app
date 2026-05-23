@@ -1,0 +1,31 @@
+compound_id,name,descriptors
+glutamic_acid,Ácido glutámico,umami@savory
+glycine,Glicina,sweet
+alanine,Alanina,sweet
+succinic_acid,Ácido succínico,umami@marine@sour
+dimethyl_sulfide,Dimetilsulfuro,marine@sulfurous@cabbage
+trimethylamine,Trimetilamina,fishy@marine
+hexanal,Hexanal,green@grassy@fatty
+nonadienal,"(E,Z)-2,6-nonadienal",cucumber@green@marine
+nonenal,(E)-2-nonenal,green@fatty
+cis3hexenal,cis-3-hexenal,green@grassy
+beta_ionone,beta-Ionona,floral@violet
+isobutylthiazole,2-isobutiltiazol,tomato@green
+limonene,Limoneno,citrus@orange
+citral,Citral,citrus@lemon
+linalool,Linalool,floral@citrus
+citric_acid,Ácido cítrico,sour@acid
+diacetyl,Diacetilo,buttery
+butyric_acid,Ácido butírico,buttery@cheesy
+decalactone,delta-Decalactona,creamy@peach@fatty
+mannitol,Manitol,sweet
+ethyl_butanoate,Butanoato de etilo,fruity
+furaneol,Furaneol,caramel@sweet@strawberry
+gamma_decalactone,gamma-Decalactona,fruity@peach
+diallyl_disulfide,Disulfuro de dialilo,garlic@sulfurous
+methyl_allyl_sulfide,Sulfuro de metilalilo,garlic@sulfurous
+myrcene,Mirceno,herbal@green
+menthatriene,1.3.8-p-mentatrieno,parsley@herbal@green
+ethylguaiacol,4-etilguayacol,smoky@spicy
+hemf,HEMF,caramel@savory@sweet
+lactic_acid,Ácido láctico,sour
