@@ -5,4 +5,4 @@ requests>=2.31
 networkx>=3.0
 matplotlib>=3.7
 # opcional, solo para la explicación con LLM:
-# anthropic>=0.40
+anthropic>=0.40
