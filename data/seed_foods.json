@@ -1,0 +1,350 @@
+[
+  {
+    "id": "cockles",
+    "name": "Berberechos",
+    "scientific": "Cerastoderma edule · bivalvo marino",
+    "aliases": ["berberecho", "berberechos", "cockle", "cockles", "almeja", "almejas", "bivalvo", "molusco"],
+    "emoji": "🐚",
+    "category": "marino / bivalvo",
+    "profile": {"marino": 0.96, "salino": 0.92, "umami": 0.82, "mineral": 0.78, "fresco": 0.42, "vegetal": 0.22, "dulce": 0.34, "acido": 0.03, "graso": 0.04, "sulfurado": 0.36},
+    "molecules": [
+      {"name": "Succinic acid", "spanish": "Ácido succínico", "family": "organic acid", "descriptor": "umami / bivalvo", "evidence": 0.75},
+      {"name": "Glutamic acid", "spanish": "Glutamato", "family": "amino acid", "descriptor": "umami", "evidence": 0.65},
+      {"name": "Glycine", "spanish": "Glicina", "family": "amino acid", "descriptor": "sweet / mild", "evidence": 0.60},
+      {"name": "Alanine", "spanish": "Alanina", "family": "amino acid", "descriptor": "sweet / mild", "evidence": 0.55},
+      {"name": "Dimethyl sulfide", "spanish": "Dimetil sulfuro", "family": "sulfur volatile", "descriptor": "marine / algae", "evidence": 0.50},
+      {"name": "Hexanal", "spanish": "Hexanal", "family": "aldehyde", "descriptor": "green / grassy", "evidence": 0.45}
+    ],
+    "role": "Ingrediente base marino, salino, mineral y umami."
+  },
+  {
+    "id": "kombu",
+    "name": "Kombu",
+    "scientific": "Laminaria/Saccharina spp.",
+    "aliases": ["kombu", "alga kombu", "kelp"],
+    "emoji": "🌊",
+    "category": "marino / umami",
+    "profile": {"marino": 0.88, "mineral": 0.82, "umami": 0.95, "salino": 0.64, "vegetal": 0.35, "acido": 0.02, "graso": 0.01, "sulfurado": 0.28, "fresco": 0.15},
+    "molecules": [
+      {"name": "Glutamic acid", "spanish": "Glutamato", "family": "amino acid", "descriptor": "umami", "evidence": 0.85},
+      {"name": "Mannitol", "spanish": "Manitol", "family": "polyol", "descriptor": "sweet / marine", "evidence": 0.65},
+      {"name": "Dimethyl sulfide", "spanish": "Dimetil sulfuro", "family": "sulfur volatile", "descriptor": "marine / algae", "evidence": 0.45}
+    ],
+    "role": "Refuerza el eje marino-umami-mineral."
+  },
+  {
+    "id": "dashi",
+    "name": "Dashi",
+    "scientific": "caldo umami japonés",
+    "aliases": ["dashi", "caldo dashi"],
+    "emoji": "🍵",
+    "category": "umami",
+    "profile": {"umami": 0.98, "marino": 0.75, "mineral": 0.55, "salino": 0.62, "graso": 0.08, "acido": 0.02, "vegetal": 0.2, "sulfurado": 0.18, "fresco": 0.06},
+    "molecules": [
+      {"name": "Glutamic acid", "spanish": "Glutamato", "family": "amino acid", "descriptor": "umami", "evidence": 0.80},
+      {"name": "Inosinic acid", "spanish": "IMP", "family": "nucleotide", "descriptor": "umami synergy", "evidence": 0.75},
+      {"name": "Guanylic acid", "spanish": "GMP", "family": "nucleotide", "descriptor": "umami synergy", "evidence": 0.65}
+    ],
+    "role": "Aumenta la profundidad umami por sinergia glutamato-nucleótidos."
+  },
+  {
+    "id": "white_miso",
+    "name": "Miso blanco",
+    "scientific": "fermentado de soja/arroz",
+    "aliases": ["miso", "miso blanco", "white miso", "shiro miso"],
+    "emoji": "🥣",
+    "category": "fermentado / umami",
+    "profile": {"umami": 0.9, "salino": 0.72, "dulce": 0.42, "fermentado": 0.66, "mineral": 0.3, "graso": 0.1, "acido": 0.12, "marino": 0.18, "sulfurado": 0.16, "fresco": 0.04},
+    "molecules": [
+      {"name": "Glutamic acid", "spanish": "Glutamato", "family": "amino acid", "descriptor": "umami", "evidence": 0.75},
+      {"name": "Lactic acid", "spanish": "Ácido láctico", "family": "organic acid", "descriptor": "fermented / acidic", "evidence": 0.55},
+      {"name": "Pyrazine", "spanish": "Pirazinas", "family": "heterocyclic", "descriptor": "roasted / fermented", "evidence": 0.35}
+    ],
+    "role": "Aporta umami dulce-fermentado sin tapar el ingrediente base."
+  },
+  {
+    "id": "yuzu_lime",
+    "name": "Yuzu / lima",
+    "scientific": "cítrico aromático",
+    "aliases": ["yuzu", "lima", "lime"],
+    "emoji": "🍋",
+    "category": "cítrico / ácido",
+    "profile": {"acido": 0.96, "citrico": 0.92, "fresco": 0.86, "floral": 0.42, "vegetal": 0.18, "dulce": 0.14, "graso": 0.0, "umami": 0.0, "marino": 0.02, "sulfurado": 0.0},
+    "molecules": [
+      {"name": "Limonene", "spanish": "Limoneno", "family": "terpene", "descriptor": "citrus", "evidence": 0.85},
+      {"name": "Citral", "spanish": "Citral", "family": "aldehyde terpene", "descriptor": "lemon", "evidence": 0.75},
+      {"name": "Linalool", "spanish": "Linalool", "family": "terpene alcohol", "descriptor": "floral / citrus", "evidence": 0.60},
+      {"name": "Citric acid", "spanish": "Ácido cítrico", "family": "organic acid", "descriptor": "sour", "evidence": 0.90}
+    ],
+    "role": "Contraste: limpia salinidad, reduce notas metálicas y aporta brillo."
+  },
+  {
+    "id": "lemon",
+    "name": "Limón",
+    "scientific": "Citrus limon",
+    "aliases": ["limón", "limon", "lemon"],
+    "emoji": "🍋",
+    "category": "cítrico / ácido",
+    "profile": {"acido": 0.94, "citrico": 0.9, "fresco": 0.78, "floral": 0.2, "vegetal": 0.12, "dulce": 0.08, "graso": 0.0, "umami": 0.0, "marino": 0.0, "sulfurado": 0.0},
+    "molecules": [
+      {"name": "Limonene", "spanish": "Limoneno", "family": "terpene", "descriptor": "citrus", "evidence": 0.90},
+      {"name": "Citral", "spanish": "Citral", "family": "aldehyde terpene", "descriptor": "lemon", "evidence": 0.70},
+      {"name": "Citric acid", "spanish": "Ácido cítrico", "family": "organic acid", "descriptor": "sour", "evidence": 0.90}
+    ],
+    "role": "Contraste clásico: acidez, salivación y frescor."
+  },
+  {
+    "id": "sherry_vinegar",
+    "name": "Vinagre de Jerez",
+    "scientific": "vinagre envejecido",
+    "aliases": ["vinagre de jerez", "jerez", "sherry vinegar"],
+    "emoji": "🍷",
+    "category": "ácido / oxidativo",
+    "profile": {"acido": 0.92, "tostado": 0.25, "dulce": 0.18, "fermentado": 0.55, "mineral": 0.18, "fresco": 0.28, "graso": 0.0, "umami": 0.08, "marino": 0.02, "sulfurado": 0.02},
+    "molecules": [
+      {"name": "Acetic acid", "spanish": "Ácido acético", "family": "organic acid", "descriptor": "vinegar / acidic", "evidence": 0.90},
+      {"name": "Ethyl acetate", "spanish": "Acetato de etilo", "family": "ester", "descriptor": "fruity / solvent-like", "evidence": 0.55},
+      {"name": "Acetaldehyde", "spanish": "Acetaldehído", "family": "aldehyde", "descriptor": "oxidative / apple", "evidence": 0.45}
+    ],
+    "role": "Contraste funcional: mignonette, escabeche fino y salivación."
+  },
+  {
+    "id": "cucumber",
+    "name": "Pepino",
+    "scientific": "Cucumis sativus",
+    "aliases": ["pepino", "cucumber"],
+    "emoji": "🥒",
+    "category": "vegetal acuoso",
+    "profile": {"vegetal": 0.82, "fresco": 0.92, "acuoso": 0.9, "dulce": 0.15, "acido": 0.05, "graso": 0.0, "umami": 0.02, "marino": 0.02, "sulfurado": 0.02, "mineral": 0.08},
+    "molecules": [
+      {"name": "Hexanal", "spanish": "Hexanal", "family": "aldehyde", "descriptor": "green / grassy", "evidence": 0.65},
+      {"name": "trans-2-Nonenal", "spanish": "trans-2-nonenal", "family": "aldehyde", "descriptor": "cucumber / fatty", "evidence": 0.55},
+      {"name": "cis-6-Nonenal", "spanish": "cis-6-nonenal", "family": "aldehyde", "descriptor": "cucumber / green", "evidence": 0.55}
+    ],
+    "role": "Conecta con aldehídos verdes y aporta frescor acuoso."
+  },
+  {
+    "id": "fennel",
+    "name": "Hinojo",
+    "scientific": "Foeniculum vulgare",
+    "aliases": ["hinojo", "fennel"],
+    "emoji": "🌿",
+    "category": "vegetal aromático",
+    "profile": {"vegetal": 0.62, "fresco": 0.58, "anisado": 0.86, "dulce": 0.34, "acido": 0.04, "graso": 0.0, "umami": 0.02, "marino": 0.0, "mineral": 0.08, "sulfurado": 0.0},
+    "molecules": [
+      {"name": "Anethole", "spanish": "Anetol", "family": "phenylpropene", "descriptor": "anise / sweet", "evidence": 0.85},
+      {"name": "Limonene", "spanish": "Limoneno", "family": "terpene", "descriptor": "citrus", "evidence": 0.45},
+      {"name": "Fenchone", "spanish": "Fenchona", "family": "ketone terpene", "descriptor": "camphor / fennel", "evidence": 0.65}
+    ],
+    "role": "Contraste aromático: anisado, fresco y mediterráneo."
+  },
+  {
+    "id": "parsley",
+    "name": "Perejil",
+    "scientific": "Petroselinum crispum",
+    "aliases": ["perejil", "parsley"],
+    "emoji": "🌿",
+    "category": "hierba fresca",
+    "profile": {"vegetal": 0.74, "fresco": 0.74, "herbal": 0.88, "mineral": 0.22, "acido": 0.03, "umami": 0.04, "graso": 0.0, "marino": 0.02, "sulfurado": 0.1},
+    "molecules": [
+      {"name": "Apiol", "spanish": "Apiol", "family": "phenylpropene", "descriptor": "parsley / herbal", "evidence": 0.70},
+      {"name": "Myristicin", "spanish": "Miristicina", "family": "phenylpropene", "descriptor": "warm / herbal", "evidence": 0.55},
+      {"name": "Hexanal", "spanish": "Hexanal", "family": "aldehyde", "descriptor": "green / grassy", "evidence": 0.45}
+    ],
+    "role": "Aporta hierba fresca y controla la sensación marina."
+  },
+  {
+    "id": "chive_shallot",
+    "name": "Cebollino / chalota",
+    "scientific": "Allium spp.",
+    "aliases": ["cebollino", "chalota", "chive", "shallot", "allium"],
+    "emoji": "🧅",
+    "category": "allium suave",
+    "profile": {"sulfurado": 0.7, "vegetal": 0.42, "fresco": 0.36, "dulce": 0.28, "umami": 0.12, "acido": 0.02, "graso": 0.0, "marino": 0.04, "mineral": 0.06},
+    "molecules": [
+      {"name": "Allicin", "spanish": "Alicina", "family": "organosulfur", "descriptor": "garlic / allium", "evidence": 0.55},
+      {"name": "Dimethyl disulfide", "spanish": "Dimetil disulfuro", "family": "sulfur volatile", "descriptor": "onion / cabbage", "evidence": 0.50}
+    ],
+    "role": "Puente sulfurado suave entre marisco y aromáticos."
+  },
+  {
+    "id": "butter",
+    "name": "Mantequilla",
+    "scientific": "grasa láctea",
+    "aliases": ["mantequilla", "butter"],
+    "emoji": "🧈",
+    "category": "grasa láctea",
+    "profile": {"graso": 0.95, "lacteo": 0.82, "dulce": 0.22, "tostado": 0.2, "umami": 0.08, "acido": 0.04, "fresco": 0.02, "marino": 0.0, "sulfurado": 0.02},
+    "molecules": [
+      {"name": "Diacetyl", "spanish": "Diacetilo", "family": "diketone", "descriptor": "buttery", "evidence": 0.90},
+      {"name": "Butyric acid", "spanish": "Ácido butírico", "family": "fatty acid", "descriptor": "butter / cheese", "evidence": 0.65},
+      {"name": "Gamma-decalactone", "spanish": "γ-decalactona", "family": "lactone", "descriptor": "creamy / peach", "evidence": 0.45}
+    ],
+    "role": "Contraste físico-sensorial: redondea un ingrediente magro y salino."
+  },
+  {
+    "id": "albarino",
+    "name": "Albariño / vino blanco",
+    "scientific": "vino blanco atlántico",
+    "aliases": ["albariño", "albarino", "vino blanco", "white wine"],
+    "emoji": "🥂",
+    "category": "vino / ácido",
+    "profile": {"acido": 0.75, "floral": 0.3, "frutal": 0.58, "mineral": 0.42, "fresco": 0.64, "dulce": 0.08, "graso": 0.0, "umami": 0.02, "marino": 0.06, "sulfurado": 0.05},
+    "molecules": [
+      {"name": "Tartaric acid", "spanish": "Ácido tartárico", "family": "organic acid", "descriptor": "wine acidity", "evidence": 0.75},
+      {"name": "Ethyl hexanoate", "spanish": "Hexanoato de etilo", "family": "ester", "descriptor": "fruity", "evidence": 0.50},
+      {"name": "Linalool", "spanish": "Linalool", "family": "terpene alcohol", "descriptor": "floral", "evidence": 0.40}
+    ],
+    "role": "Contraste ácido-mineral y continuidad atlántica."
+  },
+  {
+    "id": "tomato",
+    "name": "Tomate",
+    "scientific": "Solanum lycopersicum",
+    "aliases": ["tomate", "tomato"],
+    "emoji": "🍅",
+    "category": "vegetal / umami",
+    "profile": {"umami": 0.72, "acido": 0.7, "dulce": 0.48, "vegetal": 0.72, "fresco": 0.62, "marino": 0.05, "graso": 0.02, "mineral": 0.12, "sulfurado": 0.06, "salino": 0.08},
+    "molecules": [
+      {"name": "Glutamic acid", "spanish": "Glutamato", "family": "amino acid", "descriptor": "umami", "evidence": 0.85},
+      {"name": "Hexanal", "spanish": "Hexanal", "family": "aldehyde", "descriptor": "green", "evidence": 0.75},
+      {"name": "cis-3-Hexenal", "spanish": "cis-3-hexenal", "family": "aldehyde", "descriptor": "green leaf", "evidence": 0.70},
+      {"name": "6-Methyl-5-hepten-2-one", "spanish": "6-metil-5-hepten-2-ona", "family": "ketone", "descriptor": "tomato / fruity", "evidence": 0.55}
+    ],
+    "role": "Une umami vegetal, acidez y frescor mediterráneo."
+  },
+  {
+    "id": "strawberry",
+    "name": "Fresa ácida",
+    "scientific": "Fragaria × ananassa",
+    "aliases": ["fresa", "fresas", "strawberry"],
+    "emoji": "🍓",
+    "category": "frutal / creativo",
+    "profile": {"dulce": 0.86, "acido": 0.62, "frutal": 0.92, "floral": 0.55, "fresco": 0.55, "vegetal": 0.18, "umami": 0.04, "graso": 0.02, "sulfurado": 0.01, "marino": 0.0},
+    "molecules": [
+      {"name": "Furaneol", "spanish": "Furaneol", "family": "furanone", "descriptor": "strawberry / caramel", "evidence": 0.85},
+      {"name": "Linalool", "spanish": "Linalool", "family": "terpene alcohol", "descriptor": "floral", "evidence": 0.55},
+      {"name": "Ethyl butyrate", "spanish": "Butirato de etilo", "family": "ester", "descriptor": "fruity", "evidence": 0.65}
+    ],
+    "role": "Pairing creativo por contraste dulce-ácido y notas florales."
+  },
+  {
+    "id": "coffee",
+    "name": "Café",
+    "scientific": "Coffea spp.",
+    "aliases": ["café", "cafe", "coffee"],
+    "emoji": "☕",
+    "category": "tostado / amargo",
+    "profile": {"tostado": 0.95, "amargo": 0.88, "floral": 0.24, "frutal": 0.26, "graso": 0.3, "dulce": 0.14, "acido": 0.42, "umami": 0.1, "sulfurado": 0.25, "fresco": 0.05},
+    "molecules": [
+      {"name": "Furfural", "spanish": "Furfural", "family": "aldehyde", "descriptor": "roasted / almond", "evidence": 0.80},
+      {"name": "2-Furfurylthiol", "spanish": "2-furfuriltiol", "family": "sulfur volatile", "descriptor": "coffee roasted", "evidence": 0.85},
+      {"name": "Guaiacol", "spanish": "Guayacol", "family": "phenol", "descriptor": "smoky", "evidence": 0.55},
+      {"name": "Pyrazine", "spanish": "Pirazinas", "family": "heterocyclic", "descriptor": "roasted / nutty", "evidence": 0.70}
+    ],
+    "role": "Contraste tostado-amargo con moléculas de Maillard."
+  },
+  {
+    "id": "dark_chocolate",
+    "name": "Chocolate negro",
+    "scientific": "Theobroma cacao",
+    "aliases": ["chocolate", "chocolate negro", "cacao", "cocoa"],
+    "emoji": "🍫",
+    "category": "tostado / graso",
+    "profile": {"tostado": 0.86, "amargo": 0.72, "graso": 0.7, "dulce": 0.32, "floral": 0.24, "frutal": 0.3, "umami": 0.12, "acido": 0.18, "fresco": 0.02, "sulfurado": 0.12},
+    "molecules": [
+      {"name": "Pyrazine", "spanish": "Pirazinas", "family": "heterocyclic", "descriptor": "roasted / nutty", "evidence": 0.70},
+      {"name": "Furaneol", "spanish": "Furaneol", "family": "furanone", "descriptor": "caramel", "evidence": 0.50},
+      {"name": "Linalool", "spanish": "Linalool", "family": "terpene alcohol", "descriptor": "floral", "evidence": 0.45}
+    ],
+    "role": "Aporta amargor, grasa y notas tostadas."
+  },
+  {
+    "id": "olive_oil",
+    "name": "Aceite de oliva",
+    "scientific": "Olea europaea",
+    "aliases": ["aceite de oliva", "olive oil", "aove"],
+    "emoji": "🫒",
+    "category": "grasa vegetal / verde",
+    "profile": {"graso": 0.9, "vegetal": 0.6, "fresco": 0.45, "amargo": 0.22, "picante": 0.22, "frutal": 0.35, "acido": 0.02, "umami": 0.01},
+    "molecules": [
+      {"name": "Hexanal", "spanish": "Hexanal", "family": "aldehyde", "descriptor": "green / grassy", "evidence": 0.65},
+      {"name": "E-2-Hexenal", "spanish": "E-2-hexenal", "family": "aldehyde", "descriptor": "green / fruity", "evidence": 0.70},
+      {"name": "Oleic acid", "spanish": "Ácido oleico", "family": "fatty acid", "descriptor": "fatty body", "evidence": 0.80}
+    ],
+    "role": "Aporta grasa, notas verdes y textura."
+  },
+  {
+    "id": "mushroom",
+    "name": "Setas",
+    "scientific": "Agaricus / Lentinula / Pleurotus",
+    "aliases": ["seta", "setas", "mushroom", "champignon", "shiitake"],
+    "emoji": "🍄",
+    "category": "terroso / umami",
+    "profile": {"umami": 0.72, "terroso": 0.85, "fresco": 0.15, "vegetal": 0.3, "graso": 0.03, "mineral": 0.25, "dulce": 0.08},
+    "molecules": [
+      {"name": "1-Octen-3-ol", "spanish": "1-octen-3-ol", "family": "alcohol", "descriptor": "mushroom / earthy", "evidence": 0.85},
+      {"name": "Glutamic acid", "spanish": "Glutamato", "family": "amino acid", "descriptor": "umami", "evidence": 0.55},
+      {"name": "Guanylic acid", "spanish": "GMP", "family": "nucleotide", "descriptor": "umami synergy", "evidence": 0.50}
+    ],
+    "role": "Aporta umami terroso; útil con moderación."
+  },
+  {
+    "id": "soy_sauce",
+    "name": "Salsa de soja",
+    "scientific": "fermentado de soja",
+    "aliases": ["soja", "salsa de soja", "soy sauce"],
+    "emoji": "🧂",
+    "category": "fermentado / salino",
+    "profile": {"umami": 0.92, "salino": 0.95, "fermentado": 0.8, "tostado": 0.25, "dulce": 0.18, "acido": 0.08, "graso": 0.0},
+    "molecules": [
+      {"name": "Glutamic acid", "spanish": "Glutamato", "family": "amino acid", "descriptor": "umami", "evidence": 0.85},
+      {"name": "Lactic acid", "spanish": "Ácido láctico", "family": "organic acid", "descriptor": "fermented", "evidence": 0.55},
+      {"name": "Pyrazine", "spanish": "Pirazinas", "family": "heterocyclic", "descriptor": "roasted", "evidence": 0.40}
+    ],
+    "role": "Aumenta umami y salinidad; hay que dosificar."
+  },
+  {
+    "id": "nori",
+    "name": "Nori",
+    "scientific": "Porphyra/Pyropia spp.",
+    "aliases": ["nori", "alga nori"],
+    "emoji": "🌊",
+    "category": "alga / tostado",
+    "profile": {"marino": 0.75, "umami": 0.75, "mineral": 0.62, "salino": 0.55, "tostado": 0.42, "vegetal": 0.35, "sulfurado": 0.2},
+    "molecules": [
+      {"name": "Glutamic acid", "spanish": "Glutamato", "family": "amino acid", "descriptor": "umami", "evidence": 0.65},
+      {"name": "Dimethyl sulfide", "spanish": "Dimetil sulfuro", "family": "sulfur volatile", "descriptor": "marine / algae", "evidence": 0.45},
+      {"name": "Pyrazine", "spanish": "Pirazinas", "family": "heterocyclic", "descriptor": "roasted", "evidence": 0.35}
+    ],
+    "role": "Amplifica notas de costa con un punto tostado."
+  },
+  {
+    "id": "almond",
+    "name": "Almendra",
+    "scientific": "Prunus dulcis",
+    "aliases": ["almendra", "almendras", "almond"],
+    "emoji": "🌰",
+    "category": "fruto seco",
+    "profile": {"graso": 0.55, "dulce": 0.25, "tostado": 0.65, "amargo": 0.12, "floral": 0.1, "frutal": 0.12},
+    "molecules": [
+      {"name": "Benzaldehyde", "spanish": "Benzaldehído", "family": "aldehyde", "descriptor": "almond / cherry", "evidence": 0.80},
+      {"name": "Pyrazine", "spanish": "Pirazinas", "family": "heterocyclic", "descriptor": "roasted / nutty", "evidence": 0.55}
+    ],
+    "role": "Aporta fruto seco, grasa y tostado."
+  },
+  {
+    "id": "vanilla",
+    "name": "Vainilla",
+    "scientific": "Vanilla planifolia",
+    "aliases": ["vainilla", "vanilla"],
+    "emoji": "🌼",
+    "category": "dulce / floral",
+    "profile": {"dulce": 0.78, "floral": 0.62, "tostado": 0.18, "graso": 0.12, "fresco": 0.02},
+    "molecules": [
+      {"name": "Vanillin", "spanish": "Vainillina", "family": "phenolic aldehyde", "descriptor": "vanilla / sweet", "evidence": 0.95},
+      {"name": "p-Hydroxybenzaldehyde", "spanish": "p-hidroxibenzaldehído", "family": "aldehyde", "descriptor": "sweet / balsamic", "evidence": 0.45}
+    ],
+    "role": "Aporta dulzor aromático y floralidad."
+  }
+]
